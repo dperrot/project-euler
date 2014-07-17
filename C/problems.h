@@ -2,7 +2,7 @@
  * problems.h
  *
  *  Created on: Jul 12, 2014
- *      Author: Testament
+ *      Author: David Perrot
  */
 
 #ifndef PROBLEMS_H_
