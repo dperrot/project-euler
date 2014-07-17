@@ -1,12 +1,12 @@
 /*
- * Problem001.c
+ * p001.c
  *
  *  Created on: Jul 12, 2014
  *      Author: David Perrot
  */
 #include <stdio.h>
 
-int main()
+void p001()
 {
 	int sum;
 	int i;
@@ -16,6 +16,4 @@ int main()
 			sum += i;
 	}
 	printf("Sum is: %d", sum);
-
-	return 0;
 }
