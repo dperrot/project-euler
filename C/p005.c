@@ -10,12 +10,12 @@
 #include <stdio.h>
 
 void p005() {
-  char mod = 2;
+  char mod = 19;
   int num = 20;
   
-  while(mod <= 20) {
-    if (!(num % mod)) { mod++; }
-    else { mod = 2; num += 20; }
+  while(mod > 0) {
+    if (!(num % mod)) { mod--; }
+    else { mod = 19; num += 20; }
   }
   
   printf("Smallest multiple that is evenly divisible by numbers 1 - 20: %d", num);

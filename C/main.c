@@ -18,7 +18,9 @@ ProblemFunctions problems[] = {&p001,
                                &p003,
                                &p004,
                                &p005,
-                               &p006};
+                               &p006,
+                               &p007,
+                               &p008};
 
 int main(void)
 {

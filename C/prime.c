@@ -18,7 +18,7 @@ void generate_sieve(unsigned long long sieve_size) {
   unsigned long sieve_size_sqrrt = sqrt(sieve_size);
   unsigned long long sieve_index = 2;
   unsigned long long sieve_comp_index;
-  sieve = calloc(sieve_size, sizeof(char));
+  sieve = calloc(sieve_size + 1, sizeof(char));
   *sieve = 1; *(sieve + 1) = 1;
   
   while (sieve_index < sieve_size_sqrrt) {
