@@ -1,20 +1,21 @@
 /*
- * main.c
- *
- *  Created on: Jul 12, 2014
- *      Author: David Perrot
- *
- *  PURPOSE: This file handles facilitating running different problem
- *  		 sets provided for each of the different classes as they
- *  		 are built over time.
- */
+  main.c | Main project euler class handler
+  
+  Created: Jul 12, 2014
+   Author: David Perrot
+  
+  This file handles facilitating running different problem
+  sets provided for each of the different classes as they
+  are built over time.
+*/
 #include <stdio.h>
 #include <sys/time.h>
 #include "problems.h"
 
 typedef void (*ProblemFunctions)();
 ProblemFunctions problems[] = {&p001,
-                               &p002};
+                               &p002,
+                               &p003};
 
 int main(void)
 {
