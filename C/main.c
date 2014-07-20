@@ -16,7 +16,9 @@ typedef void (*ProblemFunctions)();
 ProblemFunctions problems[] = {&p001,
                                &p002,
                                &p003,
-                               &p004};
+                               &p004,
+                               &p005,
+                               &p006};
 
 int main(void)
 {

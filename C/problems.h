@@ -14,5 +14,7 @@ void p001();
 void p002();
 void p003();
 void p004();
+void p005();
+void p006();
 
 #endif
