@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1406481398 source:d:\project-euler\c\main.c
+	<stdio.h>
+	<sys/time.h>
+	"problems.h"
+
+1406481388 d:\project-euler\c\problems.h
+
+1405819547 source:d:\project-euler\c\p001.c
+	<stdio.h>
+
+1405819542 source:d:\project-euler\c\p002.c
+	<stdio.h>
+
+1405824194 source:d:\project-euler\c\p003.c
+	<stdio.h>
+	"prime.h"
+
+1406256255 d:\project-euler\c\prime.h
+
+1405827381 source:d:\project-euler\c\p004.c
+	<stdio.h>
+	"palindrome.h"
+
+1405825947 d:\project-euler\c\palindrome.h
+
+1405886153 source:d:\project-euler\c\p005.c
+	<stdio.h>
+
+1405828965 source:d:\project-euler\c\p006.c
+	<stdio.h>
+
+1405880203 source:d:\project-euler\c\p007.c
+	<stdio.h>
+	"prime.h"
+
+1406174275 source:d:\project-euler\c\p008.c
+	<stdio.h>
+
+1405825922 source:d:\project-euler\c\palindrome.c
+
+1406256792 source:d:\project-euler\c\prime.c
+	<math.h>
+
+1406177398 source:d:\project-euler\c\p009.c
+	<stdio.h>
+	<math.h>
+
+1406257464 source:d:\project-euler\c\p010.c
+	<stdio.h>
+	"prime.h"
+
+1406480826 source:d:\project-euler\c\p011.c
+	<stdio.h>
+

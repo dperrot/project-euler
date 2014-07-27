@@ -1,9 +1,9 @@
 /*
   prime.h
-  
+
   Created: Jul 17, 2014
    Author: David Perrot
-   
+
   This file handles linking various problem sets to
   common prime functions for ease of facilitation.
 */

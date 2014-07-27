@@ -1,9 +1,9 @@
 /*
   problems.h
-  
+
   Created: Jul 12, 2014
    Author: David Perrot
-   
+
   Handler to link all functions for each problem set as created.
 */
 
@@ -18,5 +18,9 @@ void p005();
 void p006();
 void p007();
 void p008();
+void p009();
+void p010();
+void p011();
+void p012();
 
 #endif

@@ -1,10 +1,12 @@
 /*
   p008.c | Problem 8 - Largest product in a series
-  
+
   Created: Jul 19, 2014
    Author: David Perrot
-   
-  Description of solution here.
+
+  Load up a file with ASCII decimal numbers and iterate
+  through the file, determining which series of numbers
+  result in the largest product and storing it in memory.
 */
 #include <stdio.h>
 
@@ -18,16 +20,16 @@ void p008() {
   char ch;
   unsigned long long result;
   unsigned long long max = 0;
-  
+
   fp = fopen("data/p008.txt", "r");
   if (fp == NULL) {
     printf("Cannot run the problem. Data file does not exist.");
     return;
   }
-  
+
   // Initialize product array since we use variable-sized objects.
   memset(products, 0, sizeof products);
-  
+
   // Iterate through the file, taking out only the first
   // number in sequence from result and putting in the next number
   // for efficiency. Store products and max when reached.
@@ -47,7 +49,7 @@ void p008() {
     }
   }
   fclose(fp);
-  
+
   printf("The highest products from the series is as follows:\n");
   for(i = 0; i < size-1; i++) { printf("%d * ", max_products[i]); }
   printf("%d = %llu", max_products[size-1], max);

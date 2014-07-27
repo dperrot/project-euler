@@ -1,9 +1,9 @@
 /*
   main.c | Main project euler class handler
-  
+
   Created: Jul 12, 2014
    Author: David Perrot
-  
+
   This file handles facilitating running different problem
   sets provided for each of the different classes as they
   are built over time.
@@ -20,7 +20,11 @@ ProblemFunctions problems[] = {&p001,
                                &p005,
                                &p006,
                                &p007,
-                               &p008};
+                               &p008,
+                               &p009,
+                               &p010,
+                               &p011,
+                               &p012};
 
 int main(void)
 {
