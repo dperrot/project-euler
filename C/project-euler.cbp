@@ -33,6 +33,7 @@
 		</Compiler>
 		<Unit filename="data/p008.txt" />
 		<Unit filename="data/p011.txt" />
+		<Unit filename="data/p013.txt" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -67,6 +68,24 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="p011.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="p012.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="p013.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="p014.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="p015.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="p016.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="p017.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="palindrome.c">

@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1406481398 source:d:\project-euler\c\main.c
+1407986583 source:d:\project-euler\c\main.c
 	<stdio.h>
 	<sys/time.h>
 	"problems.h"
 
-1406481388 d:\project-euler\c\problems.h
+1407986575 d:\project-euler\c\problems.h
 
 1405819547 source:d:\project-euler\c\p001.c
 	<stdio.h>
@@ -51,5 +51,23 @@
 	"prime.h"
 
 1406480826 source:d:\project-euler\c\p011.c
+	<stdio.h>
+
+1406485817 source:d:\project-euler\c\p012.c
+	<stdio.h>
+
+1407613582 source:d:\project-euler\c\p013.c
+	<stdio.h>
+
+1407725996 source:d:\project-euler\c\p014.c
+	<stdio.h>
+
+1407729377 source:d:\project-euler\c\p015.c
+	<stdio.h>
+
+1407986540 source:d:\project-euler\c\p016.c
+	<stdio.h>
+
+1407992740 source:d:\project-euler\c\p017.c
 	<stdio.h>
 

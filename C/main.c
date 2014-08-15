@@ -24,7 +24,12 @@ ProblemFunctions problems[] = {&p001,
                                &p009,
                                &p010,
                                &p011,
-                               &p012};
+                               &p012,
+                               &p013,
+                               &p014,
+                               &p015,
+                               &p016,
+                               &p017};
 
 int main(void)
 {
